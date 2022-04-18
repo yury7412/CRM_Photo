@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тарифы</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <script src="js/main.js" type="text/javascript" defer></script>
+    <script src="js/pop_up.js" type="text/javascript" defer></script>
+    <script src="js/slider.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="css/price2.css">
+</head>
+
+<body>
+    <header class="container row">
+        <a href="#" class="logo">
+            <img src="img/logo.svg" alt="">
+        </a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <nav class="navigation row">
+            <ul class="primary-list row">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="price2.html">Тарифы</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="about company.html">О компании</a></li>
+            </ul>
+            <ul class="secondary-list row">
+              <li><a href="CRM:Photo@yandex.ru">Служба поддержки</a></li>
+              <li><a href="#" id="open_pop_up">Регистрация</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="h1_title">
+      <h1>Выбери свой тариф</h1>
+    </div>
+
+    <div class="pop_up" id="pop_up">
+        <div class="pop_up_cont">
+            <div class="pop_up_body" id="pop_up_body">
+                <p>Регистрация</p>
+                <form action="">
+                    <input type="email" placeholder="Email">
+                    <input type="password"  placeholder="Пароль">
+                    <input type="password"  placeholder="Повторите пароль">
+                    <button>Зарегистрироваться</button>
+                </form>
+                <div class="pop_up_close" id="pop_up_close">&#x2715;</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pricing-box-container">
+        <div class="pricing-box text-center">
+          <h5>3 месяца</h5>
+          <p class="price">714 ₽/мес</p>
+          <ul class="features-list">
+            <li><strong>1</strong> Project</li>
+            <li><strong>50</strong> Personal Projects</li>
+            <li><strong>5,000</strong> Messages</li>
+          </ul>
+          <button class="btn-primary">Попробовать бесплатно</button>
+        </div>
+      
+        <div class="pricing-box pricing-box-bg-image text-center">
+          <h5>6 месяцев</h5>
+          <p class="price">833 ₽/мес</p>
+          <ul class="features-list">
+            <li><strong>5</strong> Project</li>
+            <li><strong>100</strong> Personal Projects</li>
+            <li><strong>15,000</strong> Messages</li>
+          </ul>
+          <button class="btn-primary">Попробовать бесплатно</button>
+        </div>
+      
+        <div class="pricing-box text-center">
+          <h5>1 год</h5>
+          <p class="price">938 ₽/мес</p>
+          <ul class="features-list">
+            <li><strong>25</strong> Project</li>
+            <li><strong>500</strong> Personal Projects</li>
+            <li><strong>50,000</strong> Messages</li>
+          </ul>
+          <button class="btn-primary">Попробовать бесплатно</button>
+        </div>
+      </div>
+      
+    
+   
+
+
+
+<footer>
+    <img src="img/Logo footer.svg" alt="logo">
+    <p>Политика конфиденциальности.</p>
+    <p>Соглашение на обработку Персональных данных</p>
+    <h1 class="Copyright">&copy; CRM-Photo 2022г</h1>
+</footer>
+
+
+
+</body>
+
+</html>

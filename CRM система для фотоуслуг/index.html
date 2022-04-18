@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM-система для фотоуслуг</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <script src="js/main.js" type="text/javascript" defer></script>
+    <script src="js/pop_up.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="container row">
+        <a href="#" class="logo">
+            <img src="img/logo.svg" alt="">
+        </a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <nav class="navigation row">
+            <ul class="primary-list row">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="price2.html">Тарифы</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="about company.html">О компании</a></li>
+            </ul>
+            <ul class="secondary-list row">
+                <li><a href="CRM:Photo@yandex.ru">Служба поддержки</a></li>
+                <li><a href="#" id="open_pop_up">Регистрация</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="pop_up" id="pop_up">
+        <div class="pop_up_cont">
+            <div class="pop_up_body" id="pop_up_body">
+                <p>Регистрация</p>
+                <form action="">
+                    <input type="email" placeholder="Email">
+                    <input type="password"  placeholder="Пароль">
+                    <input type="password"  placeholder="Повторите пароль">
+                    <button>Зарегистрироваться</button>
+                </form>
+                <div class="pop_up_close" id="pop_up_close">&#x2715;</div>
+            </div>
+        </div>
+    </div>
+       
+
+    
+    <section class="container hero row">
+        <div class="content">
+            <h1>CRM-система <br> для фотоуслуг</h1>
+            <p>CRM-Photo автоматизирует и увеличит продажи,<br> наведет порядок в финансах и покажет реальную прибыль бизнеса</p>
+            <a href="price2.html" class="row_period">
+               Пробный период &rarr;
+            </a>
+        </div>
+
+        <div class="img">
+            <img src="img/Image.png" alt="">
+            <span></span>
+        </div>
+    </section>
+
+    <section class="container hero row">
+            <h1 class="text_card">Повышает качество сервиса</h1>
+    </section>
+    <section class="container hero row">
+        <div class="grid">
+            <div class="left">
+                <img src="img/Group 1832.png" alt="">
+            </div>
+
+            <div class="right">
+                <p>Вся информация о клиенте собрана в едином профайле: персональные данные, история визитов и покупок, программы лояльности, примечания и предпочтения каждого гостя. Клиенты оценят профессиональный подход.</p>
+                <a href="https://t.me/+o0cmrGFCD2Y0Njgy" class="btn-about">Узнать подробнее</a>
+            </div>
+        </div>
+    </section>
+
+
+<section class="section_video">
+    <div class="info_video">
+        <h1 class="txt_video">Увеличивает прибыль и сокращает издержки</h1>
+    </div>
+     <a href="https://youtu.be/hqu0GLadnzQ"><img class="about-video" src="img/video.png" href = "" alt=""></a>
+</section>
+
+<section class="section_tel">
+    <div class="info_tel">
+        <h1 class="txt_tel">Не решился? Тогда переходи на наш <br><a href="https://t.me/+o0cmrGFCD2Y0Njgy"><span href class="bold">Telegram бот</span></a></h1>
+    </div>    
+</section>
+
+
+
+
+
+<footer>
+    <img src="img/Logo footer.svg" alt="logo">
+    <p>Политика конфиденциальности.</p>
+    <p>Соглашение на обработку Персональных данных</p>
+    <h1 class="Copyright">&copy; CRM-Photo 2022г</h1>
+</footer>
+
+
+
+</body>
+
+</html>
